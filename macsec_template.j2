@@ -1,0 +1,12 @@
+
+
+
+set security macsec connectivity-association {{CA_NAME}} security-mode static-cak
+set security macsec connectivity-association {{CA_NAME}} mka transmit-interval 6000
+set security macsec connectivity-association {{CA_NAME}} mka key-server-priority 0
+set security macsec connectivity-association {{CA_NAME}} replay-protect replay-window-size 5
+set security macsec connectivity-association {{CA_NAME}} pre-shared-key ckn {{CKN}}
+set security macsec connectivity-association {{CA_NAME}} pre-shared-key cak {{CAK}}
+set security macsec interfaces {{INTERFACE_NAME}} connectivity-association {{CA_NAME}}
+
+		

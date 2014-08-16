@@ -1,0 +1,12 @@
+N1_CA_NAME: Sge0-2-Bge10 
+N1_IP: 10.92.70.215
+N1_INT: xe-0/0/16 
+N1_USER: root
+N1_PASS: testing123
+
+N2_CA_NAME: Bge10-2-Sge0
+N2_IP: 10.92.70.200
+N2_INT: xe-0/0/16 
+N2_USER: root
+N2_PASS: testing123
+
