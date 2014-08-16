@@ -1,5 +1,5 @@
-macsec
-======
+MACSEC SCRIPT OVERVIEW
+======================
 
 This script is used to automate MACsec configuration between two devices.
 
@@ -16,3 +16,12 @@ The py script checks the software version of the devices to make sure they are m
 
 I am working on updating the script to include MACsec verification after the MACsec configuration is installed. I will update the script after I test this. 
 
+
+HOW TO USE THE SCRIPT:
+=====================
+STEP1: Ensure that you have the JUNOS EZ environment setup. This post provides good information for setting this up. 
+http://lamejournal.com/2013/12/02/installing-junos-ez-library-easy-sdn-part-1/
+
+STEP2: Edit "macsec_data.yml" file and provide the necessary information
+
+STEP3: Run the python script "python macsec_script.py"
