@@ -22,6 +22,13 @@ HOW TO USE THE SCRIPT:
 STEP1: Ensure that you have the JUNOS EZ environment setup. This post provides good information for setting this up. 
 http://lamejournal.com/2013/12/02/installing-junos-ez-library-easy-sdn-part-1/
 
-STEP2: Edit "macsec_data.yml" file and provide the necessary information
+STEP2: Copy the following files to a single directory
+      "macsec_data.yml"
+      "macsec_script.py"
+      "macsec_template.j2"
+      "junver.py"
+      "junver.yml"
 
-STEP3: Run the python script "python macsec_script.py"
+STEP3: Edit "macsec_data.yml" file and provide the necessary information
+
+STEP4: Run the python script "python macsec_script.py"
