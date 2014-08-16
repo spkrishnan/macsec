@@ -16,6 +16,7 @@ The py script checks the software version of the devices to make sure they are m
 
 I am working on updating the script to include MACsec verification after the MACsec configuration is installed. I will update the script after I test this. 
 
+Please let me know if you have any suggestions to make the script better.
 
 HOW TO USE THE SCRIPT:
 =====================
